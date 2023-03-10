@@ -1,0 +1,15 @@
+[RFID] 	-> 	[ESP]
+SDA(biru)	->	GPIO05
+SCK(biput)	->	GPIO18
+MOSI(hijau)	->	GPIO23
+MISO(hiput)	->	GPIO19
+RST(coklat)	->	GPIO27
+3.3V(orange)->	3.3V
+GND(orput)	->	GND
+
+[LCD_I2C] 	-> 	[ESP]
+3.3V		->	3.3V
+GND		->	GND
+SCL		->	GPIO22(I2C_SCL)
+SDA		->	GPIO21(I2C_SDA)
+cc
