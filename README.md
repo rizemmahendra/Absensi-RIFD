@@ -1,4 +1,4 @@
-# Absensi-RIFD
+# Absensi RIFD
 
 ## Deskrisi Singkat Alat
 
