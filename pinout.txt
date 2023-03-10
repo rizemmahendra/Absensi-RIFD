@@ -12,4 +12,3 @@ GND(orput)	->	GND
 GND		->	GND
 SCL		->	GPIO22(I2C_SCL)
 SDA		->	GPIO21(I2C_SDA)
-cc
