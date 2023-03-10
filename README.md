@@ -1,2 +1,3 @@
 # Absensi-RIFD
-Absensi menggunakan RFID yang terkonek ke server
+
+## Absensi menggunakan RFID yang terkonek ke server
