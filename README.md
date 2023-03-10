@@ -6,22 +6,34 @@ Source untuk membuat absensi menggunakan RFID, alat ini menggunakan ESP32 sebaga
 
 ## Pinout ESP32
 
-<img src="./img/esp32-pinout-reference-wroom-devkit.png">
-<center>(Sumber: <a href="https://www.upesy.com/blogs/tutorials/esp32-pinout-reference-gpio-pins-ultimate-guide">upesy.com</a>)</center>
+<p align="center">
+    <img src="./img/esp32-pinout-reference-wroom-devkit.png">
+</p>
+<p align="center">
+    (Sumber: <a href="https://www.upesy.com/blogs/tutorials/esp32-pinout-reference-gpio-pins-ultimate-guide">upesy.com</a>)
+</p>
 
 <br>
 
 ## Pinout RFID RC522
 
-<img src="./img/RC522-RFID-Reader-Module-Pinout.jpg">
-<center>(Sumber: <a href="https://circuitdigest.com/microcontroller-projects/interfacing-rfid-reader-module-with-arduino" target="_blank">circuitdigest.com</a>)</center>
+<p align="center">
+    <img src="./img/RC522-RFID-Reader-Module-Pinout.jpg">
+</p>
+<p align="center">
+    (Sumber: <a href="https://circuitdigest.com/microcontroller-projects/interfacing-rfid-reader-module-with-arduino" target="_blank">circuitdigest.com</a>)
+</p>
 
 <br>
 
 ## Pinout LCD I2C
 
-<center><img src="./img/I2C-LCD-Display-Pinout.png"></center>
-<center>(Sumber: <a href="https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/" target="_blank" >lastminuteengineers.com</a>)</center>
+<p align="center">
+    <img src="./img/I2C-LCD-Display-Pinout.png">
+</p>
+<p align="center">
+    (Sumber: <a href="https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/" target="_blank" >lastminuteengineers.com</a>)
+</p>
 
 <br>
 
@@ -75,7 +87,7 @@ Source untuk membuat absensi menggunakan RFID, alat ini menggunakan ESP32 sebaga
     </td>
     <td>
     </td>
-    <td style="vertical-align: top">
+    <td valign="top">
         <table>
             <tr>
                 <th>LCD_I2C</th>
