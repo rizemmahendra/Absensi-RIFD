@@ -2,11 +2,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 const char *ssid2 = "JTKWIFI";
-const char *passwd2 = "RuangJTK-2021";
+const char *passwd2 = "RuangDTK-2023";
 const char *ssid = "Warga ResLab";
 const char *passwd = "wargareslab";
-//String url = "http://10.44.9.79/api.php";
-String url = "http://192.168.1.112/api.php";
+String url = "http://10.44.9.12/api/presensi";
 
 // =================== Library RFID ===================
 #include <SPI.h>
@@ -120,15 +119,15 @@ void loop() {
       String payload = http.getString();
       StaticJsonDocument<200> doc;
       deserializeJson(doc, payload);
-      String jam = doc["jam"];
-      String hari = doc["hari"];
+      String jam = doc["time"];
+      String hari = doc["date"];
       int hour = doc["hour"]; //Perkondisian Jam
       lcd.setCursor(0, 0);
       lcd.print(jam);
       lcd.setCursor(0, 1);
       lcd.print(hari + "                ");
       Serial.print(hari+", ");Serial.println(jam);
-      String readMode = doc["status"];
+      String readMode = doc["card_mode"];
       if (hour >= 8 && hour <= 23) {
         lcd.noBacklight();
       }
